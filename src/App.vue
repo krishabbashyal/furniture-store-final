@@ -3,11 +3,6 @@
     <Navbar/>
     <Shop/>
     <Grid/>
-
-    
-
-
-
   </div>
 </template>
 
@@ -17,7 +12,6 @@ import Shop from './components/Shop.vue'
 import Grid from './components/Grid.vue';
 
 
-
 export default {
   name: 'App',
   components: {
@@ -25,19 +19,9 @@ export default {
     Shop,
     Grid,
 
-
   }
 }
 </script>
-
-
-
-
-
-
-
-
-
 
 <style>
 
@@ -48,9 +32,18 @@ background-color: #ffff;
 color: #343a40;
 }
 
-.app {
-  font-family: "Inter", sans-serif;
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
+.app {
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
 
 </style>
