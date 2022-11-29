@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import Button from './Button.vue';
 export default {
     name: 'Product',
     props: {
@@ -22,8 +23,14 @@ export default {
         description: {
             type: String,
             default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+        },
+        category: {
+            type: String
         }
 
+    },
+    components: {
+        Button
     }
 }
 </script>

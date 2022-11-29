@@ -3,26 +3,38 @@
       <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
-
-      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
-      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
-      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
-
-      <Product title = "Bed" price = "399.99" image="bed1.jpg"/>
-      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
-      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
-
-      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
 
       <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
 
       <Product title = "Bed" price = "399.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
       <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
+
+      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
+
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
+
+      <Product title = "Bed" price = "399.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "499.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "599.99" image="bed1.jpg"/>
+      <Product title = "Bed" price = "299.99" image="bed1.jpg"/>
     </div>
     
 </template>
@@ -33,7 +45,7 @@
     name: 'Grid',
     components: {
         Product
-    }
+        }
     }
 </script>
 

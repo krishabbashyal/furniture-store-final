@@ -6,12 +6,16 @@
             <p>In a small shop in the heart of our town, we spend our days relentlessly perfecting our products. The result is a perfect blend of beauty and comfort, that will have a lasting impact on your health without breaking the bank. </p>
             <div class="shop-by-section">
                 <h2>Browse our inventory!</h2>
-                <button>Beds</button>
-                <button>Chairs</button>
-                <button>Couches</button>
-                <button>Desks</button>
-                <button>Dressors</button>
-                <button>Tables</button>
+                <div class="button-span">
+                  <Button text = "All"/>
+                  <Button text = "Beds"/>
+                  <Button text = "Chairs"/>
+                  <Button text = "Couches"/>
+                  <Button text = "Desks"/>
+                  <Button text = "Dressers"/>
+                  <Button text = "Tables"/>
+                </div>
+
             </div>
         </div>
 
@@ -22,9 +26,14 @@
 
 
 <script>
-export default {
-    name: 'Shop'
-}
+    import Button from './Button.vue';
+    export default {
+      name: 'Shop',
+      components: {
+          Button,
+          } 
+      }
+
 
 </script>
 
@@ -63,24 +72,9 @@ export default {
     align-content: center;
     margin-bottom: 200px ;
 }
-
-button {
-    margin-top: 5px;
-    margin-left: 10px;
-    background-color: white;;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 22px;
-    border: 2px solid black;
-
+.button-span{
+    display: inline-flex
 }
 
-button:active{
-
-}
-
-button:hover{
-    background-color: #00c97f;
-}
 
 </style>
