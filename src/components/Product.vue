@@ -5,7 +5,6 @@
         <p class = "description">{{description}}</p>
         <p class = "price">${{price}}</p>
         <button>Add to cart</button>
- 
     </div>
 </template>
 
@@ -30,7 +29,6 @@ export default {
 </script>
 
 <style scoped>
-
 .card {
  
     margin: 10px;
@@ -40,8 +38,6 @@ export default {
     width: 300px;
     height: 435px;
     border-radius: 15px;
-
-
 }
 
 img {
