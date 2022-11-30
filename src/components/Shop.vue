@@ -26,7 +26,6 @@
     text-align: center;
     width: 75%;
     margin-bottom: 50px;
-    
 }
 .hero-section{
     padding-top: 30px;
@@ -35,8 +34,6 @@
     text-align: left;
     color: #343a40;  
     margin-left: 250px;
-
-
 }
 
 .hero-section img{
@@ -44,7 +41,6 @@
     border-radius: 10%;
     float: right;
     margin-left: 50px;
-
 }
 
 

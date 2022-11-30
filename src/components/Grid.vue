@@ -90,36 +90,31 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .shop-by-section{
     margin-top: 20px;
     margin-left: 200px;
     text-align: center;
     align-content: center;
-    margin-bottom: 50px ;
+    margin-bottom: 140px ;
 }
 .button-span{
     display: inline-flex
 }
-
 .beds{
     display: flex;
 }
-
 .chairs{
     display: flex;
 }
 .couches{
     display: flex;
 }
-
 .dressers{
     display: flex;
 }
 .tables{
     display: flex;
 }
-
 button {
     margin-top: 5px;
     margin-left: 15px;
@@ -134,12 +129,10 @@ button {
     color: white;
 
 }
-
 .empty h1{
     font-size: 42px;
     color: rgba(128, 128, 128, 0.801);
 }
-
 .empty p{
     font-size: 24px;
     color: rgba(128, 128, 128, 0.801);
@@ -147,16 +140,8 @@ button {
 .inactive:hover {
     background-color: lightgreen;
 }
-
-
 .active:hover {
   background-color: red;
 
 }
-
-
-
-
-
-
 </style>
