@@ -3,6 +3,7 @@
     <Navbar/>
     <Shop/>
     <Grid/>
+    <Footer/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Navbar from './components/Navbar.vue'
 import Shop from './components/Shop.vue'
 import Grid from './components/Grid.vue';
+import Footer from './components/Footer.vue';
 
 
 export default {
@@ -18,6 +20,7 @@ export default {
     Navbar,
     Shop,
     Grid,
+    Footer,
 
   }
 }

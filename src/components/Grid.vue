@@ -1,7 +1,7 @@
 <template>
     <div class="shop-by-section">
                 <h2>What are ya shoppin' for?</h2>
-                <p>Select a category and we will show you all the hard work we have been up to 😏😏</p>
+                <p>Select a category and we will show you all the hard work we have been up to</p>
                 <div class="button-span">
 
                     <button class = "inactive" :class="{active: bedsButtonClicked }" @click="[beds = !beds, bedsButtonClicked = !bedsButtonClicked]">Beds</button>
@@ -14,39 +14,39 @@
 
     <div class="product-grid">
         <div v-if="beds" class="beds">
-            <Product title = "beds" price = "2499.99" image="bed1.jpg"/>
-            <Product title = "beds" price = "1599.99" image="bed3.jpg"/>
-            <Product title = "beds" price = "1299.99" image="bed4.jpg"/>
-            <Product title = "beds" price = "1599.99" image="bed2.jpg"/>
-            <Product title = "beds" price = "1599.99" image="bed5.jpg"/>
+            <Product title = "The Luxury" price = "2499.99" image="bed1.jpg"/>
+            <Product title = "The Rustic" price = "1599.99" image="bed3.jpg"/>
+            <Product title = "The Modern" price = "1599.99" image="bed4.jpg"/>
+            <Product title = "The Minimal" price = "1299.99" image="bed2.jpg"/>
+            <Product title = "The Classic" price = "2299.99" image="bed5.jpg"/>
         </div>
         <div v-if="chairs" class="chairs">
-            <Product title = "chairs" price = "199.99" image="chair2.jpg"/>
-            <Product title = "chairs" price = "799.99" image="chair4.jpg"/>
-            <Product title = "chairs" price = "99.99" image="chair5.jpg"/>
-            <Product title = "chairs" price = "99.99" image="chair3.jpg"/>
-            <Product title = "chairs" price = "149.99" image="chair1.jpg"/>
+            <Product title = "The Vintage" price = "199.99" image="chair2.jpg"/>
+            <Product title = "The Eames" price = "799.99" image="chair4.jpg"/>
+            <Product title = "The White Ice" price = "99.99" image="chair5.jpg"/>
+            <Product title = "The Cloud" price = "99.99" image="chair3.jpg"/>
+            <Product title = "The Mid-Century" price = "349.99" image="chair1.jpg"/>
         </div>
         <div v-if="couches" class="couches">
-            <Product title = "couchs" price = "499.99" image="couch4.jpg"/>
-            <Product title = "couchs" price = "599.99" image="couch2.jpg"/>
-            <Product title = "couchs" price = "499.99" image="couch3.jpg"/>
-            <Product title = "couchs" price = "999.99" image="couch5.jpg"/>
-            <Product title = "couchs" price = "799.99" image="couch1.jpg"/>
+            <Product title = "The Abstract" price = "799.99" image="couch4.jpg"/>
+            <Product title = "The Oval" price = "599.99" image="couch2.jpg"/>
+            <Product title = "The Lonsdale" price = "799.99" image="couch3.jpg"/>
+            <Product title = "The Reya" price = "599.99" image="couch5.jpg"/>
+            <Product title = "The Midnight" price = "699.99" image="couch1.jpg"/>
         </div>
         <div v-if="dressers" class="dressers">
-            <Product title = "dressers" price = "399.99" image="dresser1.jpg"/>
-            <Product title = "dressers" price = "299.99" image="dresser2.jpg"/>
-            <Product title = "dressers" price = "299.99" image="dresser3.jpg"/>
-            <Product title = "dressers" price = "299.99" image="dresser4.jpg"/>
-            <Product title = "dressers" price = "599.99" image="dresser5.jpg"/>
+            <Product title = "The Oak" price = "399.99" image="dresser1.jpg"/>
+            <Product title = "The Pearl" price = "399.99" image="dresser2.jpg"/>
+            <Product title = "The Designer" price = "449.99" image="dresser3.jpg"/>
+            <Product title = "The Oblong" price = "349.99" image="dresser4.jpg"/>
+            <Product title = "The Southern" price = "599.99" image="dresser5.jpg"/>
         </div>
         <div v-if="tables" class="tables">
-            <Product title = "tables" price = "499.99" image="table4.jpg"/>
-            <Product title = "tables" price = "599.99" image="table5.jpg"/>
-            <Product title = "tables" price = "299.99" image="table2.jpg"/>
-            <Product title = "tables" price = "599.99" image="table3.jpg"/>
-            <Product title = "tables" price = "599.99" image="table1.jpg"/>
+            <Product title = "The Mini" price = "499.99" image="table4.jpg"/>
+            <Product title = "The Contemporary" price = "1099.99" image="table5.jpg"/>
+            <Product title = "The Farmhouse" price = "299.99" image="table2.jpg"/>
+            <Product title = "The Marble" price = "699.99" image="table3.jpg"/>
+            <Product title = "The Laid Back" price = "399.99" image="table1.jpg"/>
         </div>
     </div>
 </template>
@@ -92,11 +92,11 @@
 }
 
 .shop-by-section{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 200px;
     text-align: center;
     align-content: center;
-    margin-bottom: 200px ;
+    margin-bottom: 50px ;
 }
 .button-span{
     display: inline-flex

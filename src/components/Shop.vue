@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="hero-section">
-            <img src="..\assets\zHero\hero.jpg" alt="hero image">
+            <img src="..\assets\Hero\hero.jpg" alt="hero image">
             <h1>We design and build awesome furniture, for a better life.</h1>
             <p>In a small shop in the heart of our town, we spend our days relentlessly perfecting our products. The result is a perfect blend of beauty and comfort, that will have a lasting impact on your health without breaking the bank. </p>
             
