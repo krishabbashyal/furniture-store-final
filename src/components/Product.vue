@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img src="..\assets\beds\bed1.jpg" alt="">
+        <img :src="require(`../assets/${image}`)" />
         <h2>{{title}}</h2>
         <p class = "description">{{description}}</p>
         <p class = "price">${{price}}</p>
@@ -22,6 +22,9 @@ export default {
         description: {
             type: String,
             default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+        },
+        image:{
+            type: String,
         },
     },
 

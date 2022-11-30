@@ -16,38 +16,38 @@
     <div class="product-grid">
         <div v-if="beds" class="beds">
             <Product title = "beds" price = "499.99" image="bed1.jpg"/>
-            <Product title = "beds" price = "599.99" image="bed1.jpg"/>
-            <Product title = "beds" price = "299.99" image="bed1.jpg"/>
-            <Product title = "beds" price = "599.99" image="bed1.jpg"/>
-            <Product title = "beds" price = "599.99" image="bed1.jpg"/>
+            <Product title = "beds" price = "599.99" image="bed3.jpg"/>
+            <Product title = "beds" price = "299.99" image="bed4.jpg"/>
+            <Product title = "beds" price = "599.99" image="bed2.jpg"/>
+            <Product title = "beds" price = "599.99" image="bed5.jpg"/>
         </div>
         <div v-if="chairs" class="chairs">
-            <Product title = "chairs" price = "499.99" image="bed1.jpg"/>
-            <Product title = "chairs" price = "599.99" image="bed1.jpg"/>
-            <Product title = "chairs" price = "299.99" image="bed1.jpg"/>
-            <Product title = "chairs" price = "599.99" image="bed1.jpg"/>
-            <Product title = "chairs" price = "599.99" image="bed1.jpg"/>
+            <Product title = "chairs" price = "499.99" image="chair2.jpg"/>
+            <Product title = "chairs" price = "599.99" image="chair4.jpg"/>
+            <Product title = "chairs" price = "299.99" image="chair5.jpg"/>
+            <Product title = "chairs" price = "599.99" image="chair3.jpg"/>
+            <Product title = "chairs" price = "599.99" image="chair1.jpg"/>
         </div>
         <div v-if="couches" class="couches">
-            <Product title = "couchs" price = "499.99" image="bed1.jpg"/>
-            <Product title = "couchs" price = "599.99" image="bed1.jpg"/>
-            <Product title = "couchs" price = "299.99" image="bed1.jpg"/>
-            <Product title = "couchs" price = "599.99" image="bed1.jpg"/>
-            <Product title = "couchs" price = "599.99" image="bed1.jpg"/>
+            <Product title = "couchs" price = "499.99" image="couch4.jpg"/>
+            <Product title = "couchs" price = "599.99" image="couch2.jpg"/>
+            <Product title = "couchs" price = "299.99" image="couch3.jpg"/>
+            <Product title = "couchs" price = "599.99" image="couch5.jpg"/>
+            <Product title = "couchs" price = "599.99" image="couch1.jpg"/>
         </div>
         <div v-if="desks" class="desks">
-            <Product title = "desks" price = "499.99" image="bed1.jpg"/>
-            <Product title = "desks" price = "599.99" image="bed1.jpg"/>
-            <Product title = "desks" price = "299.99" image="bed1.jpg"/>
-            <Product title = "desks" price = "599.99" image="bed1.jpg"/>
-            <Product title = "desks" price = "599.99" image="bed1.jpg"/>
+            <Product title = "desks" price = "499.99" image=".jpg"/>
+            <Product title = "desks" price = "599.99" image=".jpg"/>
+            <Product title = "desks" price = "299.99" image=".jpg"/>
+            <Product title = "desks" price = "599.99" image=".jpg"/>
+            <Product title = "desks" price = "599.99" image=".jpg"/>
         </div>
         <div v-if="dressers" class="dressers">
-            <Product title = "dressers" price = "499.99" image="bed1.jpg"/>
-            <Product title = "dressers" price = "599.99" image="bed1.jpg"/>
-            <Product title = "dressers" price = "299.99" image="bed1.jpg"/>
-            <Product title = "dressers" price = "599.99" image="bed1.jpg"/>
-            <Product title = "dressers" price = "599.99" image="bed1.jpg"/>
+            <Product title = "dressers" price = "499.99" image="dresser1.jpg"/>
+            <Product title = "dressers" price = "599.99" image="dresser2.jpg"/>
+            <Product title = "dressers" price = "299.99" image="dresser3.jpg"/>
+            <Product title = "dressers" price = "599.99" image="dresser4.jpg"/>
+            <Product title = "dressers" price = "599.99" image="dresser5.jpg"/>
         </div>
         <div v-if="tables" class="tables">
             <Product title = "tables" price = "499.99" image="bed1.jpg"/>
