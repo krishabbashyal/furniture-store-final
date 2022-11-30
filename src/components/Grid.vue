@@ -1,14 +1,14 @@
-<template v-if="">
+<template>
     <div class="shop-by-section">
                 <h2>What are ya shoppin' for?</h2>
                 <p>Select a category and we will show you all the hard work we have been up to 😏😏</p>
                 <div class="button-span">
 
-                    <button @click="beds = !beds">Beds</button>
-                    <button @click="chairs = !chairs">Chairs</button>
-                    <button @click="couches = !couches">Couches</button>
-                    <button @click="dressers = !dressers">Dressers</button>
-                    <button @click="tables = !tables">Tables</button>    
+                    <button class = "inactive" :class="{active: bedsButtonClicked }" @click="[beds = !beds, bedsButtonClicked = !bedsButtonClicked]">Beds</button>
+                    <button class = "inactive" :class="{active: chairsButtonClicked }" @click="[chairs = !chairs, chairsButtonClicked = !chairsButtonClicked]">Chairs</button>
+                    <button class = "inactive" :class="{active: couchesButtonClicked }" @click="[couches = !couches, couchesButtonClicked = !couchesButtonClicked]">Couches</button>
+                    <button class = "inactive" :class="{active: dressersButtonClicked }" @click="[dressers = !dressers, dressersButtonClicked = !dressersButtonClicked]">Dressers</button>
+                    <button class = "inactive" :class="{active: tablesButtonClicked }" @click="[tables = !tables, tablesButtonClicked = !tablesButtonClicked]">Tables</button>
                 </div>
             </div>
 
@@ -60,19 +60,31 @@
     },
     data() {
   	    return {
+        bedsButtonClicked: false,
+        chairsButtonClicked: false,
+        couchesButtonClicked: false,
+        dressersButtonClicked: false,
+        tablesButtonClicked: false,
 	    beds: false,
         chairs: false,
         couches: false,
         desks: false,
         dressers: false,
-        tables: false
-  	}
-}
+        tables: false,
+  	    }
+    },
+    methods: {
+        myFilter: function() {
+            this.isActive = !this.isActive;
+            console.log("Changed the class")
+        }
     }
+}
     
 </script>
 
-<style>
+<style scoped>
+
 .product-grid{
     display: flex;
     flex-wrap: wrap;
@@ -100,9 +112,7 @@
 .couches{
     display: flex;
 }
-.desks{
-    display: flex;
-}
+
 .dressers{
     display: flex;
 }
@@ -124,9 +134,6 @@ button {
     color: white;
 
 }
-button:hover{
-    background-color: #00c97f;
-}
 
 .empty h1{
     font-size: 42px;
@@ -137,6 +144,18 @@ button:hover{
     font-size: 24px;
     color: rgba(128, 128, 128, 0.801);
 }
+.inactive:hover {
+    background-color: lightgreen;
+}
+
+
+.active:hover {
+  background-color: red;
+
+}
+
+
+
 
 
 
